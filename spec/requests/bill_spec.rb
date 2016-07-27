@@ -19,7 +19,7 @@ describe 'bills API' do
       expect(Bill.count).to eq 1
     end
 
-    it 'converts image to text, adding total to bill' do
+    xit 'converts image to text, adding total to bill' do
       post bills_path, { event: "spanish", image: image }
       expect(response).to be_success
       expect(Bill.last.image_content_type).to eq 'image/gif'
