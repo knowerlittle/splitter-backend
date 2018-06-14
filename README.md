@@ -13,7 +13,7 @@ A Bill Splitting Hybrid Phone App that converts a photo of a bill into a digital
 
 Rails API back-end deployed on Heroku at [http://splitter-backend.herokuapp.com](http://splitter-backend.herokuapp.com/bills) outputting JSON data. Responsible for the Photo-to-Text conversion syncing with AWS and Postgres.
 
-##Installation
+## Installation
 1. Clone this repository
 2. Install `Tesseract OCR` and `Imagemagick` for the image conversion <br>
 	TESSERACT: `brew install tesseract` <br>
